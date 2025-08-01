@@ -22,11 +22,11 @@
         {{-- Inline style to set the HTML background color based on our theme in app.css --}}
         <style>
             html {
-                background-color: oklch(1 0 0);
+                background-color: #ddd;
             }
 
             html.dark {
-                background-color: oklch(0.145 0 0);
+                background-color: #ddd;
             }
         </style>
 
@@ -46,5 +46,6 @@
     </head>
     <body class="font-sans antialiased">
         @inertia
+        <h3>hello world</h3>
     </body>
 </html>
