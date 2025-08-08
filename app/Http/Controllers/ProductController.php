@@ -13,7 +13,7 @@ class ProductController extends Controller
     public function index()
     {
         $product_list = product::latest()->get();
-        return view('products_table');
+        return view('productsTable');
     }
 
     /**

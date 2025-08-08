@@ -14,6 +14,8 @@ Route::get('/products', function () {
 
 Route::get('/productsTable', [ProductController::class, 'index']);
 
+
+
 Route::middleware(['auth', 'verified'])->group(function () {
     Route::get('dashboard', function () {
         return Inertia::render('dashboard');
