@@ -10,11 +10,6 @@ class ProductController extends Controller
     /**
      * Display a listing of the resource.
      */
-    public function index()
-    {
-        $product_list = product::latest()->get();
-        return view('productsTable');
-    }
 
     /**
      * Show the form for creating a new resource.
@@ -29,7 +24,7 @@ class ProductController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        
     }
 
     /**

@@ -12,9 +12,9 @@
                 <li>
                     <a href="/products">Products</a>
                 </li>
-                <li>
+                <!-- <li>
                     <a href="/productsTable">Products Table</a>
-                </li>
+                </li> -->
             </ul>
         </div>
         @yield('content')

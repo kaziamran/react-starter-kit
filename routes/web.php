@@ -12,7 +12,7 @@ Route::get('/products', function () {
     return view('products');
 });
 
-Route::get('/productsTable', [ProductController::class, 'index']);
+Route::POST('/productsTable', [ProductController::class, 'store']);
 
 
 
