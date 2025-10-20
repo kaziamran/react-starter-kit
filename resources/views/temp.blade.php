@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
     <head>
+        @vite(['resources/css/app.css', 'resources/js/app.js'])
         <title>{{ config('app.name', 'Online Shop') }}</title>
         @include('partials/head')
     </head>
@@ -32,6 +33,9 @@
                 </ul>
             </nav>
         </header>
+        <section class="shop_banner">
+            <div class="bg-[url('/images/Rf-Online-Shopping.jpg')] bg-cover bg-center"></div>
+        </section>
 
     </body>
 </html>
